@@ -230,9 +230,6 @@ demo/upload
 demo/media
 demo/files
 
-# Ignore build folder
-build
-
 # Ignore built components
 components/index.js
 components/styles.css
@@ -241,8 +238,6 @@ components/styles.css
 demo/generated-types.ts
 demo/generated-schema.graphql
 
-# Ignore dist, no need for git
-dist
 
 # Ignore emulator volumes
 src/adapters/s3/emulator/.localstack/
